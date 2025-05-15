@@ -1,19 +1,54 @@
-Banking System Project
+===========================================
+      C BANKING SYSTEM USING LINKED LIST
+===========================================
 
-This is a simple banking system where you can perform the following actions:
-- Create account
-- Withdraw and deposit money
-- Transfer money between accounts
-- Display account balance and transaction history
-- Save/load account data to/from a file
+Project Title:
+--------------
+Banking System in C using Linked Lists and File I/O
+
+Description:
+------------
+This project implements a simple command-line banking system in C. It supports basic operations such as:
+- Creating accounts
+- Depositing and withdrawing money
+- Transferring funds
+- Viewing balance and transaction history
+- Saving/loading account information to/from a file
+
+All account data is stored using a singly linked list. Each account maintains a transaction log of up to 100 transactions. Data persistence is handled using binary file I/O.
+
+Features:
+---------
+1. Create a new account with:
+   - Account Number
+   - Name
+   - Contact Number
+
+2. Deposit money
+
+3. Withdraw money (only if sufficient balance exists)
+
+4. Transfer funds between accounts
+
+5. Balance enquiry
+
+6. View last 5 transactions for an account
+
+7. Display all accounts
+
+8. Save data to a binary file (`accounts.dat`)
+
+9. Load existing data on program start
+
+10. Find specific account by account number
+
+How to Compile:
+---------------
+Make sure all files are in the same directory:
+- `main.c`
+- `banking_system.h`
 
 To compile:
-1. Run 'make' in the terminal to compile the project.
-
-To run:
-1. Execute './bank' to start the program.
-
-To exit:
-1. Type 'q' or 'Q' in the menu.
-
-The accounts' information is saved in the 'accounts.dat' file, so the data persists across sessions.
+$make 
+To Run:
+$./bank
