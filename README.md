@@ -18,6 +18,7 @@ User Interface:
 When the application is executed, the following menu is displayed:
 
 ---------------------- MENU --------------------------
+
 c/C: Create account.
 h/H: Transaction history (minimum → last 5).
 w/W: Withdraw amount.
@@ -28,6 +29,7 @@ e/E: Display all account details.
 s/S: Save account info to file.
 f/F: Find/Search for a specific account.
 q/Q: Quit the application.
+
 -------------------------------------------------------
 
 Requirements:
